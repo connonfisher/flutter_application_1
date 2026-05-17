@@ -1,17 +1,15 @@
 # flutter_application_1
 
-A new Flutter project.
+Flutter & Dart 学习项目。
 
-## Getting Started
+## 一、dcat — Dart 命令行工具
 
-This project is a starting point for a Flutter application.
+dcat 是一个用 Dart 实现的类 Unix `cat` 命令，支持 `-n` 参数显示行号。
 
-A few resources to get you started if this is your first Flutter project:
+参考文档：[Dart 命令行应用教程](https://dart.ac.cn/tutorials/server/cmdline#overview-of-the-dcat-app-code)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 验证结果
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+已完成 dcat 基本功能验证，测试运行通过：
+
+![dcat 验证截图](images/dcat_screenshot.png)
